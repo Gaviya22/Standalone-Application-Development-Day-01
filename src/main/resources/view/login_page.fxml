@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginPageController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginPageController">
    <children>
       <Button fx:id="btnSubmit" layoutX="450.0" layoutY="129.0" mnemonicParsing="false" onAction="#btnSubmitOnAction" prefHeight="36.0" prefWidth="120.0" style="-fx-background-color: #d6272b;" text="Click">
          <font>
