@@ -27,12 +27,12 @@
          </font>
       </Label>
       <TextField layoutX="300.0" layoutY="277.0" prefHeight="25.0" prefWidth="251.0" />
-      <Button layoutX="250.0" layoutY="342.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="99.0" text="Log In">
+      <Button fx:id="buttonClick01" layoutX="250.0" layoutY="342.0" mnemonicParsing="false" onAction="#button01OnAction" prefHeight="31.0" prefWidth="99.0" text="Log In">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </Button>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="182.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../img/computer-security-with-login-password-padlock.jpg" />
          </image>
