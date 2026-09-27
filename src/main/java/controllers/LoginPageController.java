@@ -9,9 +9,8 @@ public class LoginPageController {
     @FXML
     private Button buttonClick01;
 
-
     @FXML
-    void button01OnAction(ActionEvent event) {
+    void buttonLoginAction(ActionEvent event) {
         System.out.println("Click!");
     }
 
